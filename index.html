@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YIBU-X Esports Center | Ana Sayfa</title>
+    <meta name="description"
+        content="YIBU-X Esports Center - Profesyonel oyun deneyimi, yüksek performanslı sistemler ve e-spor atmosferi.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="YIBU-X Logo" class="nav-logo">
+                <span class="logo-text">YIBU<span class="accent">-X</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active-link">Ana Sayfa</a></li>
+                <li><a href="services.html">Hizmetler</a></li>
+                <li><a href="pricing.html">Fiyatlar</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="team.html">Kadromuz</a></li>
+                <li><a href="menu.html">Menü</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary nav-btn">
+                <i data-lucide="plus-square"></i> Yer Ayırt
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i data-lucide="menu"></i></button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu">
+            <i data-lucide="x"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="services.html">Hizmetler</a></li>
+            <li><a href="pricing.html">Fiyatlar</a></li>
+            <li><a href="gallery.html">Galeri</a></li>
+            <li><a href="team.html">Kadromuz</a></li>
+            <li><a href="menu.html">Menü</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title reveal-up">
+                Oyunun <span class="accent">Merkezine</span> Hoş Geldin
+            </h1>
+            <p class="hero-subtitle reveal-up">
+                Kasmayan sistemler, yüksek FPS ve takımınla takılabileceğin VIP odalar burada.
+            </p>
+            <div class="hero-btns reveal-up">
+                <a href="contact.html" class="btn btn-primary">
+                    <i data-lucide="calendar-check"></i> Yer Ayırt
+                </a>
+                <a href="pricing.html" class="btn btn-outline">
+                    <i data-lucide="layout-grid"></i> Fiyatlar
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal-up">Neler Var?</h2>
+                <div class="accent-line reveal-up"></div>
+            </div>
+
+            <div class="services-grid">
+                <!-- VIP -->
+                <div class="service-card reveal-up">
+                    <img src="assets/images/vip1.jpeg" alt="VIP">
+                    <div class="card-content">
+                        <i class="card-icon" data-lucide="shield-check"></i>
+                        <h3>VIP Odalar</h3>
+                        <p>Takımınla dış dünyadan kopup sadece oyuna odaklanacağın izole odalar.</p>
+                    </div>
+                </div>
+
+                <!-- Simulation -->
+                <div class="service-card reveal-up" style="transition-delay: 0.1s;">
+                    <img src="assets/images/sim1.jpeg" alt="Sim">
+                    <div class="card-content">
+                        <i class="card-icon" data-lucide="gauge"></i>
+                        <h3>Simülasyon</h3>
+                        <p>Gerçek pist hissini veren profesyonel direksiyon setleri ve kokpitler.</p>
+                    </div>
+                </div>
+
+                <!-- Tournament -->
+                <div class="service-card reveal-up" style="transition-delay: 0.2s;">
+                    <img src="assets/images/plat1.jpeg" alt="Turnuva Alanı">
+                    <div class="card-content">
+                        <i class="card-icon" data-lucide="trophy"></i>
+                        <h3>Arena</h3>
+                        <p>Profesyonel arena atmosferinde takımınla turnuvalara katıl ve zirveye oyna.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us">
+        <div class="container text-center">
+            <div class="section-header">
+                <h2 class="section-title reveal-up">Neden YIBU-X?</h2>
+                <div class="accent-line reveal-up"></div>
+                <p class="section-desc reveal-up">Farkı ilk tıkışta hissedeceksin.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item reveal-up">
+                    <div class="feature-icon"><i data-lucide="zap"></i></div>
+                    <h3>Yüksek Performans</h3>
+                    <p>En son nesil işlemciler ve RTX ekran kartları ile 500+ FPS deneyimi.</p>
+                </div>
+                <div class="feature-item reveal-up" style="transition-delay: 0.1s;">
+                    <div class="feature-icon"><i data-lucide="monitor"></i></div>
+                    <h3>Gecikmesiz Oyun</h3>
+                    <p>540Hz monitörler ve fiber internet altyapısı ile rakiplerinin önünde ol.</p>
+                </div>
+                <div class="feature-item reveal-up" style="transition-delay: 0.2s;">
+                    <div class="feature-icon"><i data-lucide="coffee"></i></div>
+                    <h3>Profesyonel Ortam</h3>
+                    <p>Konforlu gaming koltuklar ve oyun aralarında dinlenebileceğin cafe alanı.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="logo.png" alt="YIBU-X Logo" class="nav-logo" style="height: 50px; margin-bottom: 1rem;">
+                <p>Yüksek performanslı sistemler ve profesyonel oyun alanı.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Hızlı Menü</h3>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="services.html">Hizmetler</a></li>
+                    <li><a href="pricing.html">Fiyatlar</a></li>
+                    <li><a href="team.html">Kadromuz</a></li>
+                    <li><a href="menu.html">Menü</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Bizi Takip Et</h3>
+                <div class="social-links">
+                    <a href="#" class="social-btn" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-btn" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-btn" aria-label="YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.42a2.78 2.78 0 0 0-1.94 2C1 8.11 1 12 1 12s0 3.89.42 5.58a2.78 2.78 0 0 0 1.94 2c1.71.42 8.6.42 8.6.42s6.88 0 8.6-.42a2.78 2.78 0 0 0 1.94-2C23 15.89 23 12 23 12s0-3.89-.42-5.58z">
+                            </path>
+                            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center" style="margin-top: 3rem; opacity: 0.4; font-size: 0.8rem;">
+            &copy; 2026 YIBU-X Esports Center.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>

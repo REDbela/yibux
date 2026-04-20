@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiyatlar | YIBU-X Esports Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="navbar scrolled">
+        <div class="nav-container container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="YIBU-X Logo" class="nav-logo">
+                <span class="logo-text">YIBU<span class="accent">-X</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="services.html">Hizmetler</a></li>
+                <li><a href="pricing.html" class="active-link">Fiyatlar</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="team.html">Kadromuz</a></li>
+                <li><a href="menu.html">Menü</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary nav-btn">
+                <i data-lucide="plus-square"></i> Yer Ayırt
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i data-lucide="menu"></i></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu"><i data-lucide="x"></i></button>
+        <ul class="mobile-nav-links">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="services.html">Hizmetler</a></li>
+            <li><a href="pricing.html">Fiyatlar</a></li>
+            <li><a href="gallery.html">Galeri</a></li>
+            <li><a href="menu.html">Menü</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+    </div>
+
+    <main class="page-content">
+        <header class="page-header">
+            <div class="container text-center">
+                <h1 class="reveal-up">Fiyat Listesi</h1>
+                <div class="accent-line reveal-up"></div>
+                <p class="section-desc reveal-up">Şeffaf fiyatlandırma, yüksek performans.</p>
+            </div>
+        </header>
+
+        <section class="pricing-page container">
+            <div class="pricing-grid">
+                <!-- Standart -->
+                <div class="price-card reveal-up">
+                    <div class="price-name">E-Spor Alanı</div>
+                    <div class="price-value">100₺ <span>/ saat</span></div>
+                    <ul class="price-features">
+                        <li>RTX 4060 Ti Sistemler</li>
+                        <li>240Hz Gaming Monitör</li>
+                        <li>Tam Set Ekipman</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline full-width">Rezervasyon</a>
+                </div>
+
+                <!-- VIP -->
+                <div class="price-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="price-name">VIP Oda</div>
+                    <div class="price-value">150₺ <span>/ saat</span></div>
+                    <ul class="price-features">
+                        <li>RTX 4090 Canavarlar</li>
+                        <li>360Hz Profesyonel Monitör</li>
+                        <li>İzole Sessiz Alan</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary full-width">Rezervasyon</a>
+                </div>
+
+                <!-- SIM -->
+                <div class="price-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="price-name">Simülasyon</div>
+                    <div class="price-value">200₺ <span>/ saat</span></div>
+                    <ul class="price-features">
+                        <li>Direct Drive Direksiyon</li>
+                        <li>Ultra-Wide Profesyonel Ekran</li>
+                        <li>Yarış Kokpiti & Koltuğu</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline full-width">Rezervasyon</a>
+                </div>
+            </div>
+
+        <section class="packages-section reveal-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Kampanyalı Paketler</h2>
+                    <div class="accent-line"></div>
+                </div>
+
+                <div class="pricing-table-wrapper">
+                    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>Özel Paket</th>
+                                <th>Süre / Detay</th>
+                                <th>Birim Ücret</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Gündüz Maratonu</td>
+                                <td>6 Saat (09:00 - 15:00)</td>
+                                <td class="price-tag">450₺</td>
+                            </tr>
+                            <tr>
+                                <td>Gece Maratonu</td>
+                                <td>8 Saat (22:00 - 06:00)</td>
+                                <td class="price-tag">600₺</td>
+                            </tr>
+                            <tr>
+                                <td>Takım İndirimi (5+)</td>
+                                <td>Tüm gün geçerli</td>
+                                <td class="price-tag">%15 İndirim</td>
+                            </tr>
+                            <tr>
+                                <td>Öğrenci Tarifesi</td>
+                                <td>Hafta içi 12:00 - 17:00</td>
+                                <td class="price-tag">%10 İndirim</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo-text">YIBU<span class="accent">-X</span></div>
+                <p>Yüksek performanslı sistemler ve profesyonel oyun alanı.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Hızlı Menü</h3>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="services.html">Hizmetler</a></li>
+                    <li><a href="pricing.html">Fiyatlar</a></li>
+                    <li><a href="menu.html">Menü</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Bizi Takip Et</h3>
+                <div class="social-links">
+                    <a href="#" class="social-btn" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="#" class="social-btn" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                    </a>
+                    <a href="#" class="social-btn" aria-label="YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.42a2.78 2.78 0 0 0-1.94 2C1 8.11 1 12 1 12s0 3.89.42 5.58a2.78 2.78 0 0 0 1.94 2c1.71.42 8.6.42 8.6.42s6.88 0 8.6-.42a2.78 2.78 0 0 0 1.94-2C23 15.89 23 12 23 12s0-3.89-.42-5.58z"></path><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center" style="margin-top: 3rem; opacity: 0.4; font-size: 0.8rem;">
+            &copy; 2026 YIBU-X Esports Center.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>

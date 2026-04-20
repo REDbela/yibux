@@ -309,6 +309,12 @@ img { max-width: 100%; display: block; }
     justify-content: center;
     gap: 1.5rem;
     margin-bottom: 4rem;
+    flex-wrap: wrap; /* Prevent overflow by wrapping */
+}
+
+@media (max-width: 600px) {
+    .menu-tabs { gap: 0.8rem; }
+    .tab-btn { padding: 0.6rem 1.2rem; font-size: 0.7rem; }
 }
 
 .tab-btn {
